@@ -1,0 +1,62 @@
+body {
+  background-color: #C4C4C4;
+}
+
+header {
+  background-color: #ffffff;
+}
+
+nav {
+  background-color: #726666;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  background-color: #fff; 
+  width: 300px;
+  padding: 6px;
+}
+
+.card img {
+  width: 288px;
+  height: 182px;
+  margin-bottom: 6px;
+}
+
+.card__title {
+  color: #282828;
+  font-size: 14px;
+}
+
+.card__description {
+  color: #282828;
+  font-size: 12px
+}
+
+footer {
+  background-color: #ffffff
+}
+
+@media screen and (max-width: 1024px) {
+  /* 1024pxまでの幅の場合に適応される */
+      body {
+          background-color:#2262D1;
+      }
+  }
+@media screen and (max-width: 768px) {
+/* 768pxまでの幅の場合に適応される */
+  .card__description {
+    font-size: 6px;
+  }
+}
+@media screen and (max-width: 320px) {
+/* 320pxまでの幅の場合に適応される */
+  .card__description {
+    display: none;
+  }
+}
