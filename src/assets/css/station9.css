@@ -42,14 +42,11 @@ footer {
   background-color: #ffffff
 }
 
-@media screen and (max-width: 1024px) {
-  /* 1024pxまでの幅の場合に適応される */
-      body {
-          background-color:#2262D1;
-      }
-  }
 @media screen and (max-width: 768px) {
 /* 768pxまでの幅の場合に適応される */
+  .card__title {
+    font-size: 10px;
+  }
   .card__description {
     font-size: 6px;
   }
